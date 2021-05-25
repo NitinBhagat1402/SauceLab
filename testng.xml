@@ -6,7 +6,7 @@ thread-count="3" parallel="tests" verbose="3">
 	<test name="sauce labs test">
 	<parameter name = "browser" value = "chrome" />
 		<classes>
-			<class name="id.majestico.qa.utils.MyTest" />
+			<class name="sauce.lab.MyTest" />
 		</classes>
 	</test>
 </suite>
